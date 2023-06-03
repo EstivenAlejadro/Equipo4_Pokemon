@@ -4,38 +4,46 @@
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-header {background-color: #306bb3;
-    height: auto;
+header {
+    background-color: #306bb3;
+    height: 72px;
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    padding: 0 12px;
 }
 
 header > img {
     width: 50%;
     max-width: 150px;
-    margin-left: 3%;
+}
+
+header>div>nav>ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    gap: 0 36px;
+    align-items: center;
+}
+
+header>div>nav>ul>li>a{
+    color: white;
+    text-decoration: none;
+    flex-direction: row;
+    align-items: center;
 }
 
 header>div{
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 32%;
     align-items: center;
-}
-a{
-    color: white;
-    text-decoration: none;
 }
 .ul{
     display: flex;
     gap: 30px;
     list-style: none;
-}
-
-header > div > nav > ul > li > a {
-    color: white;
-    text-decoration: none;
 }
 
 button {
@@ -45,6 +53,13 @@ button {
     min-width: 82px;
     min-height: 38px;
     border-radius: 4px;
+  }
+
+
+
+  li{
+    display: flex;
+    flex-direction: row;
   }
 
  
