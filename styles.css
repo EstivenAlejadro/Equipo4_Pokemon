@@ -47,8 +47,6 @@ button {
     border-radius: 4px;
   }
 
-<<<<<<< HEAD
-
 /*card*/
 
 .card {
@@ -103,7 +101,7 @@ button {
     justify-content: center;
     align-items: center;
   }
-=======
+
 footer {
     display: flex;
     flex-direction: row;
@@ -182,6 +180,6 @@ footer {
     color: white;
     opacity: 70%;
 }
->>>>>>> 4b546a2849ca97abe5aee211050d94024cf29e34
+
 
  
